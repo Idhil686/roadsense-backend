@@ -93,6 +93,9 @@ Accepts scene conditions as JSON and returns the predicted severity.
 ```bash
 pytest tests/
 ```
+## Model file
 
-Note: tests require the actual `.pkl` files to be present in `models/`,
-since they run against the real model rather than mocks.
+accident_severity_model.pkl is too large for GitHub (about 667 MB), so it is not in this repo.
+Download it from the link below and put it in the models folder:
+
+https://drive.google.com/file/d/1BBkAojTb6mO2D0MOTvd3XwopkIPsceQ2/view?usp=sharing
